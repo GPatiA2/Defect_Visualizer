@@ -1,0 +1,122 @@
+{
+    "image_path": [
+        "dataset_generation/datadron_real/DJI_20220610132147_0128_W.JPG",
+        "dataset_generation/datadron_real/DJI_20220610132147_0128_T.JPG"
+    ],
+    "command": "t",
+    "hue": [
+        0,
+        360
+    ],
+    "saturation": [
+        0,
+        255
+    ],
+    "value": [
+        0,
+        255
+    ],
+    "shape": [
+        1920,
+        1080
+    ],
+    "dual": true,
+    "alpha": 0.5,
+    "bboxes": [
+        [
+            [
+                413,
+                445
+            ],
+            [
+                409,
+                492
+            ],
+            [
+                411,
+                494
+            ],
+            [
+                443,
+                494
+            ],
+            [
+                448,
+                445
+            ]
+        ],
+        [
+            [
+                308,
+                333
+            ],
+            [
+                306,
+                387
+            ],
+            [
+                343,
+                388
+            ],
+            [
+                344,
+                334
+            ]
+        ]
+    ],
+    "scale_fact": 3.0,
+    "voffset": 0,
+    "hoffset": 0,
+    "show_name": true,
+    "show_bboxes": true,
+    "defects": [
+        {
+            "bbox": [
+                [
+                    413,
+                    445
+                ],
+                [
+                    409,
+                    492
+                ],
+                [
+                    411,
+                    494
+                ],
+                [
+                    443,
+                    494
+                ],
+                [
+                    448,
+                    445
+                ]
+            ],
+            "defect": "cell low"
+        },
+        {
+            "bbox": [
+                [
+                    308,
+                    333
+                ],
+                [
+                    306,
+                    387
+                ],
+                [
+                    343,
+                    388
+                ],
+                [
+                    344,
+                    334
+                ]
+            ],
+            "defect": "cell low"
+        }
+    ],
+    "max_temp": 50,
+    "min_temp": 0
+}

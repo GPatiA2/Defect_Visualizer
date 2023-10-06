@@ -1,0 +1,122 @@
+{
+    "image_path": [
+        "dataset_generation/datadron_real/DJI_20220610141853_0403_W.JPG",
+        "dataset_generation/datadron_real/DJI_20220610141853_0403_T.JPG"
+    ],
+    "command": "v",
+    "hue": [
+        0,
+        360
+    ],
+    "saturation": [
+        0,
+        255
+    ],
+    "value": [
+        57,
+        62
+    ],
+    "shape": [
+        1920,
+        1080
+    ],
+    "dual": true,
+    "alpha": 0.5,
+    "bboxes": [
+        [
+            [
+                461,
+                237
+            ],
+            [
+                424,
+                238
+            ],
+            [
+                424,
+                295
+            ],
+            [
+                460,
+                295
+            ]
+        ],
+        [
+            [
+                420,
+                296
+            ],
+            [
+                382,
+                297
+            ],
+            [
+                381,
+                349
+            ],
+            [
+                383,
+                351
+            ],
+            [
+                420,
+                351
+            ]
+        ]
+    ],
+    "scale_fact": 1,
+    "voffset": 0,
+    "hoffset": 0,
+    "show_name": true,
+    "show_bboxes": false,
+    "defects": [
+        {
+            "bbox": [
+                [
+                    461,
+                    237
+                ],
+                [
+                    424,
+                    238
+                ],
+                [
+                    424,
+                    295
+                ],
+                [
+                    460,
+                    295
+                ]
+            ],
+            "defect": "missing"
+        },
+        {
+            "bbox": [
+                [
+                    420,
+                    296
+                ],
+                [
+                    382,
+                    297
+                ],
+                [
+                    381,
+                    349
+                ],
+                [
+                    383,
+                    351
+                ],
+                [
+                    420,
+                    351
+                ]
+            ],
+            "defect": "multicell low"
+        }
+    ],
+    "max_temp": 50,
+    "min_temp": 0
+}
