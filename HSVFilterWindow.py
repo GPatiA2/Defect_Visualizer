@@ -2,8 +2,8 @@ import cv2
 import os
 import json
 import numpy as np
-from defect_visualizer.Image import Image, DualImage
-from defect_visualizer.Commands import CommandParser
+from Image import Image, DualImage
+from Commands import CommandParser
 from thermal import Thermal
 
 class HSVFilterWindow():
